@@ -11,10 +11,9 @@ end_date = datetime.date(year=2001, month=1,day=1)
 
 one_month = relativedelta(months=1)
 
+
 def main():
-
     temp_date = begin_date
-
     how_many_sundays = 0
 
     while temp_date < end_date:
