@@ -14,7 +14,7 @@ def isAbundant(number):
         return True
     return False 
 
-LIMIT = 28124
+LIMIT = 28124 #we know all number above this LIMIT are abundant
 
 def main():
     list_of_abudant_less_than_LIMIT = []
